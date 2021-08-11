@@ -1,0 +1,12 @@
+
+.top {
+    justify-content: right;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+}
+
+nav:link {
+    margin: 50%;
+}
+
