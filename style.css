@@ -1,12 +1,32 @@
 
+.nav-link {
+    float: right;
+    margin-top: 25px;
+}
+.nav-link a {
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    color: rgb(15,15,15);
+
+}
 .top {
     justify-content: right;
     padding: 10px;
     margin: 10px;
-    display: flex;
 }
 
-nav:link {
-    margin: 50%;
-}
+.first {grid-area: first;}
+.sec {grid-area: second;}
+.third { grid-area: third;}
 
+.content {
+    display: grid; 
+    grid-template-areas: 
+        'first second second third'
+        'first second second third'
+        'first second second third';
+    height: 70%;
+    max-height: 75%;
+    background-color: honeydew;
+}
