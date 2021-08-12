@@ -16,17 +16,10 @@
     margin: 10px;
 }
 
-.first {grid-area: first;}
-.sec {grid-area: second;}
-.third { grid-area: third;}
+.first {
+    background-image: url('https://images.pexels.com/photos/8004565/pexels-photo-8004565.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    height: 100%;
+    width: 100%;
+    
 
-.content {
-    display: grid; 
-    grid-template-areas: 
-        'first second second third'
-        'first second second third'
-        'first second second third';
-    height: 70%;
-    max-height: 75%;
-    background-color: honeydew;
 }
